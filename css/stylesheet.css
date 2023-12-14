@@ -1,0 +1,123 @@
+*{
+    margin:0px;
+    padding: 0px;
+
+}
+.clear-fix{
+clear: both;
+}
+
+#home{
+    background-image: url('../images/bg-home.jpg');
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+#home .caption{
+    text-align: center;
+    /* margin-top: 30px; */
+    padding-top: 100px;
+    color:white;
+}
+
+#home .caption .btn1 ,#home .caption .btn2 {
+ 
+    padding: 10px 30px;
+    border: none;
+    
+}
+#home .caption .btn1{
+    background-color: burlywood;
+   
+}
+#home .caption p{
+
+padding: 20px 0px ;
+
+}
+
+.about-img{
+width:40%;
+float: left;
+}
+.about-img img{
+    width:100%;
+}
+.about-info{
+width:60%;
+float: left;
+text-align: center;
+padding-top:90px;
+
+}
+.about-info h2{
+    font-size: 40px;
+}
+.about-info p{
+ line-height: 35px;
+ padding: 20px;
+ font-size: 20px;
+ 
+}
+.about-info button{
+
+color: black;
+background-color: transparent;
+padding: 14px 20px;
+border: black 3px solid ;
+
+}
+
+.style{
+
+    height: 500px;
+    background-image: url('../images/overlay-img.jpg');
+    background-attachment: fixed;
+}
+#meals{
+    padding: 50px 0px;
+}
+.meal{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.meal img{
+    border-radius: 50%;
+}
+.brdr{
+ width: 100px;
+ height: 3px;
+ background-color: black;
+ margin: 12px auto;
+   
+ 
+}
+.meal p {
+ padding-inline:30px ;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.446);
+    padding: 0 20px;
+}
+.navbar img{
+    width:100px;
+    float: left;
+}
+.navbar ul{
+    float: right;
+   
+    
+}
+.navbar ul li{
+ list-style: none;
+ display: inline-block;
+ padding: 20px;
+ 
+}
+.navbar li a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
